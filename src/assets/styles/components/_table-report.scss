@@ -1,0 +1,98 @@
+@layer components {
+  .table-report {
+    &:not(.table-report--bordered):not(.table-report--tabulator) {
+      border-spacing: 0 10px;
+      @apply border-separate;
+
+      tr:not(:last-of-type) {
+        padding-bottom: 10px;
+      }
+
+      thead {
+        vertical-align: baseline;
+      }
+
+      td:not(.tr__seperator__td) {
+        @apply bg-dark-3;
+        box-shadow: 20px 3px 20px #0000000b;
+        &:first-child {
+          @apply rounded-l-md;
+        }
+        &:last-child {
+          @apply rounded-r-md;
+        }
+        &.table-report__action {
+          @apply py-0 relative;
+          &:before {
+            content: '';
+            @apply w-px h-8 absolute left-0 inset-y-0 my-auto bg-dark-5;
+          }
+        }
+      }
+
+      .th--colored {
+        @apply bg-dark-5;
+        width: 30% !important;
+        box-shadow: 20px 3px 20px #0000000b;
+        &:first-child {
+          @apply rounded-l-md;
+        }
+        &:last-child {
+          @apply rounded-r-md;
+        }
+        &.table-report__action {
+          @apply py-0 relative;
+          &:before {
+            content: '';
+            @apply w-px h-8 absolute left-0 inset-y-0 my-auto bg-dark-5;
+          }
+        }
+      }
+    }
+    img {
+      box-shadow: 0px 0px 0px 2px #3f4865, 1px 1px 5px rgba(0, 0, 0, 0.32);
+    }
+    &.table-report--tabulator
+      .tabulator-header
+      .tabulator-headers
+      .tabulator-col {
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6) {
+        .tabulator-col-content {
+          .tabulator-col-title {
+            @apply text-center;
+          }
+        }
+      }
+    }
+  }
+
+  .table-report--content-list {
+    border-spacing: 0 0px !important;
+
+    tr {
+      cursor: pointer;
+    }
+    tr:not(.tr__seperator) {
+      padding-bottom: 0px !important;
+    }
+
+    .tr__seperator {
+      padding-bottom: 1rem !important;
+      background-color: none !important;
+      & td {
+        background-color: none !important;
+      }
+    }
+
+    .live-tag {
+      min-width: 10px;
+    }
+  }
+
+  .borderspacing__bottom--2px {
+    border-spacing: 0 2px !important;
+  }
+}

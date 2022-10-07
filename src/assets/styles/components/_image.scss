@@ -1,0 +1,21 @@
+@layer components {
+  .images__wrapper {
+  }
+  .image__total-wrapper--border {
+    @apply border-2 border-dashed shadow-sm border-dark-5 rounded-md p-5;
+  }
+  .image__wrapper {
+    @apply h-40 relative image-fit cursor-pointer zoom-in mx-auto;
+  }
+
+  .image__input-wrapper {
+    @apply mx-auto cursor-pointer relative mt-5;
+  }
+
+  .image__label__select {
+    @apply btn btn-primary w-full capitalize cursor-pointer;
+  }
+  .image__label__delete {
+    @apply w-5 h-5 flex items-center justify-center absolute rounded-full text-white bg-theme-24 right-0 top-0 -mr-2 -mt-2;
+  }
+}

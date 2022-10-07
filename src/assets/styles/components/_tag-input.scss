@@ -1,0 +1,38 @@
+@layer components {
+  .tagsClass {
+    // color: red;
+  }
+
+  .selectedClass {
+    @apply flex flex-col;
+  }
+
+  .selectecdClass:not(.ReactTags__tagInput) {
+    display: flex;
+  }
+
+  .ReactTags__tagInput {
+    @apply order-first;
+  }
+
+  .ReactTags__tagInputField {
+    @apply form-control py-3 px-4 block;
+    margin: 0.5rem 0;
+  }
+
+  .tags__wrapper {
+    @apply mt-6;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ReactTags__tag {
+    @apply bg-gray-500 self-center rounded-sm shadow-xl w-max px-2 py-1 mr-2 text-white cursor-pointer;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    min-height: 1.5rem;
+
+    & > button {
+      margin-left: 0.5rem;
+    }
+  }
+}

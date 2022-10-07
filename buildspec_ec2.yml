@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - "npm install yarn -g"
+  pre_build:
+    commands:
+      - yarn
+  build:
+    commands:
+      - yarn build
+  # post_build:
+  #   commands:
+  #     - cp appspec.yml ./dist/appspec.yml
+  #     - cd dist
+
+artifacts:
+  files:
+    - dist/**/*
+    - appspec.yml
+  #  - "**/*"
+  #base-directory: dist

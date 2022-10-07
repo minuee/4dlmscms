@@ -1,0 +1,5 @@
+{
+  "required": "This field is required.",
+  "mustBeNumber": "This field value must be a number.",
+  "mustBePositiveNumber": "This field value must be a positive number."
+}

@@ -1,0 +1,25 @@
+diff --git a/node_modules/react-data-grid/lib/bundle.cjs b/node_modules/react-data-grid/lib/bundle.cjs
+index 9ab8cec..4400836 100644
+--- a/node_modules/react-data-grid/lib/bundle.cjs
++++ b/node_modules/react-data-grid/lib/bundle.cjs
+@@ -4,7 +4,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
+ 
+ const react = require('react');
+ const clsx = require('clsx');
+-const jsxRuntime = require('react/jsx-runtime');
++const jsxRuntime = require('react/jsx-runtime.js');
+ 
+ function styleInject(css, ref) {
+   if ( ref === void 0 ) ref = {};
+diff --git a/node_modules/react-data-grid/lib/bundle.js b/node_modules/react-data-grid/lib/bundle.js
+index 580a72d..c314f16 100644
+--- a/node_modules/react-data-grid/lib/bundle.js
++++ b/node_modules/react-data-grid/lib/bundle.js
+@@ -1,6 +1,6 @@
+ import { useEffect, useLayoutEffect as useLayoutEffect$1, useRef, useContext, createContext, useMemo, useCallback, useState, memo, forwardRef, useImperativeHandle } from 'react';
+ import clsx from 'clsx';
+-import { jsxs, jsx, Fragment } from 'react/jsx-runtime';
++import { jsxs, jsx, Fragment } from 'react/jsx-runtime.js';
+ 
+ function styleInject(css, ref) {
+   if ( ref === void 0 ) ref = {};

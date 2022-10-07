@@ -1,0 +1,86 @@
+@import 'helpers/breakpoint';
+@import 'helpers/mixins';
+
+@import 'components/form-drag-and-drop';
+@import 'components/form-select';
+@import 'components/form-slider';
+@import 'components/form-label';
+@import 'components/form-inline';
+@import 'components/form-help';
+@import 'components/form-control';
+@import 'components/form-check';
+
+@import 'helpers/toastify/toastify';
+
+@import 'fonts/roboto';
+
+@import 'components/alert';
+
+@import 'components/backdrop';
+@import 'components/badge';
+@import 'components/button';
+@import 'components/breadcrumb';
+
+@import 'components/content';
+@import 'components/common';
+@import 'components/cms';
+
+@import 'components/dashboard';
+@import 'components/dropdown';
+@import 'components/date-picker';
+
+// @import 'components/full-calendar';
+
+@import 'components/input-group';
+@import 'components/input';
+@import 'components/image-fit';
+@import 'components/intro';
+@import 'components/inbox';
+@import 'components/image';
+
+@import 'components/box';
+
+@import 'components/global';
+@import 'components/grid';
+
+@import 'components/table';
+@import 'components/tag-input';
+@import 'components/transition';
+
+@import 'components/progress-bar';
+@import 'components/pagination';
+@import 'components/pristine';
+
+@import 'components/report-box';
+
+@import 'components/label';
+@import 'components/login';
+@import 'components/list';
+
+@import 'components/top-nav';
+@import 'components/top-bar-boxed';
+@import 'components/table-report';
+@import 'components/tail-select';
+
+@import 'components/search';
+@import 'components/side-nav';
+
+@import 'components/main';
+@import 'components/mobile-menu';
+@import 'components/modal';
+
+@import 'components/notification';
+@import 'components/notification-content';
+@import 'components/nav';
+
+@import 'components/wrapper';
+@import 'components/wizard';
+@import 'components/wysiwig';
+
+@import 'components/zoom-in';
+@import 'components/quill';
+@import 'components/post';
+
+@import "components/slider";
+
+@import 'helpers/tailwind';

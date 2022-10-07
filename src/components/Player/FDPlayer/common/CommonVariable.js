@@ -1,0 +1,92 @@
+// author: Jinsung Park
+// email: jspark@4dreplay.com
+
+const COMMON_VAL = {
+	COMPLEX_BUTTON_EVENT: {		
+		MOUSE_OVER: 'onMOV',
+		MOUSE_OUT: 'onMOU',
+		MOUSE_UP: 'onMUP',
+		CLICK: 'onClick',
+		SHOW_TOOLTIP: 'showTooltip',
+		FIRST_BUTTON_CLICK: 'onFirstClick',
+		SECOND_BUTTON_CLICK: 'secondButtonOnClick',
+	},
+	MOUSE_EVENT: {
+		MOUSE_CLICK: 'onMouseClick',
+		MOUSE_OVER: 'onMouseOver',		
+		MOUSE_OUT: 'onMouseOut',
+		MOUSE_UP: 'onMouseDown',
+		MOUSE_DOWN: 'onMouseDown',
+		MOUSE_SHOW_TOOLTIP: 'onShowTooltip',
+	},
+	CHANNEL_EVENT: {
+		MOUSE_UP: 'onMouseUp',
+		MOUSE_DOWN: 'onMouseDown',
+	},
+	BUTTON_EVENT: {
+		PLAY: 'play',
+		PAUSE: 'pause',
+		REWIND: 'rewind',
+		FULL_SCREEN: 'fullScreen',
+		NORMAL_SCREEN: 'normalScreen',
+		FIRST_BUTTON_CLICK: 'firstButtonClick',
+		SECOND_BUTTON_CLICK: 'secondButtonClick',
+	},
+	PLAYER_EVENT :{
+		PROMISE: 'promise',
+		PLAY: 'play',
+		PAUSE: 'pause',
+		START: 'start',
+		STOP: 'stop',
+		PLAY_START: 'playStart',
+		PLAY_COMPLETE: 'playComplete',
+		START_TO_BUFFER: 'startToBuffer',
+		STOP_TO_BUFFER: 'stopToBuffer',
+		ERROR: 'error',
+		START_TO_SCRUB: 'startToScrub',
+		SCRUB: 'scrub',
+		STOP_TO_SCRUB: 'stopToScrub',
+		CHANGE_VOLUME: 'changeVolume',
+		CHANGE_RESOLUTION: 'changeResolution',
+		CHANGE_PLAYBACK_RATES: 'changePlaybackRates',
+		UPDATE: 'update',
+		UPDATE_TIME: 'updateTime',
+		UPDATE_VIDEO_SOURCE: 'updateVideoSource',
+		ENABLE_TO_SCRUB: 'enableToControll',
+		LOAD_PROGRESS: 'loadProgress',
+		PRELOADER_LOAD_DONE: 'preloaderLoadDone',
+		LOAD_ERROR: 'loadError',
+		SKIN_LOAD_COMPLETE: 'skinLoadComplete',
+		HIDE_COMPLETE: 'hideComplete',
+		VOLUME_SET: 'volumeSet',
+		FRAMEWORK_LOAD: 'frameworkLoad',
+		FRAMEWORK_DONE: 'frameworkDone',
+		HIDER_HIDE: 'hide',
+		HIDER_SHOW: 'show',
+		SHOW_CURSOR: 'showCursor',
+		PAUSE_ALL_VIDEOS: 'pause',
+		STOP_ALL_VIDEOS: 'stop',
+	},
+	HIDE_EVENT: {
+		SHOW: 'show',
+		HIDE: 'hide',
+		HIDE_COMPLETE: 'hideComplete'
+	},
+	CONST_VAL: {
+		VIDEO: 'video',
+		HLS: 'HLS',
+		RESPONSIVE: 'responsive',
+		POSITION_TOP: 'top',
+		POSITION_BOTTOM: 'bottom',
+		POSITION_CENTER: 'center',
+		POSITION_LEFT: 'left',
+		POSITION_RIGHT: 'right',
+	},
+	COLOR: {
+		DEFAULT: '#DD1D0F',
+		WHITE: '#FFFFFF',
+		BLACK: '#000000',
+	}
+}
+
+export default COMMON_VAL;

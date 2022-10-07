@@ -1,0 +1,20 @@
+{
+  "categoryTypeRequired": "Category type은 필수항목입니다.",
+  "categoryNameEnRequired": "Category name(영문)은 필수항목입니다.",
+  "categoryNameEnTooShort": "Category name(영문)은 최소 2글자 이상이어야 합니다.",
+  "categoryNameKoRequired": "Category name(국문)은 필수항목입니다.",
+  "categoryNameKrTooShort": "Category name(국문)은 최소 2글자 이상이어야 합니다.",
+  "categorySubnameEnRequired": "Category sub name(영문)는 필수항목입니다.",
+  "categorySubnameEnTooShort": "Category sub name(영문)은 최소 2글자 이상이어야 합니다.",
+  "categorySubnameKrRequired": "Category sub name(국문)는 필수항목입니다.",
+  "categorySubnameKrTooShort": "Category sub name(국문)은 최소 2글자 이상이어야 합니다.",
+  "categoryDescEnRequired": "Category description(영문)는 필수항목입니다.",
+  "categoryDescKoRequired": "Category description(국문)는 필수항목입니다.",
+  "categoryDescEnTooShort": "Category description(영문)은 최소 2글자 이상이어야 합니다.",
+  "categoryDescKoTooShort": "Category description(국문)은 최소 2글자 이상이어야 합니다.",
+  "genreIdRequired": "Genre ID는 필수항목입니다.",
+  "categoryIdRequired": "Category ID는 필수항목입니다.",
+  "leagueIdRequired": "League ID는 필수항목입니다.",
+  "seasonIdRequired": "Season ID는 필수항목입니다.",
+  "failedToGetCategoryData ": "카테고리 정보를 불러오는데 실패했습니다. 다시 시도해주세요."
+}

@@ -1,0 +1,32 @@
+.progress {
+  height: 50px;
+  position: relative;
+  background: #65676d9d;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: inset 0 -1px 1px rgba(71, 72, 80, 0.3);
+  width: 70vw;
+  @apply absolute inset-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.progress > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(194, 203, 233);
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(35, 69, 143, 0.356);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(18, 33, 119, 0.329),
+    #0b1885d4
+  );
+  box-shadow: inset 0 -1px 1px rgba(71, 72, 80, 0.3);
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  font-weight: bold;
+}

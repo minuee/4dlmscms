@@ -1,0 +1,18 @@
+{
+  "unKnownError": "Something went wrong, please try it again.",
+  "checkPageLeave": "Unsaved data will not be saved automatically. Are you sure you want to leave?",
+  "checkDelete": "Are you sure?",
+  "UnsavedInfoWillGone": "Unsaved information will be gone.",
+  "pleaseCheckBeforeClose": "Please save the info before close the modal.",
+  "saveBeforeClose": "Please save the info before close the modal.",
+
+  "doubleCheckNeeded": "Please double check the info before save it!",
+  "useChrome": "Please use ONLY Chrome 64bit.",
+  "-------------------------------------------------": "",
+  "asteriskIsRequired": "* : required",
+  "save": "Save",
+  "Cancel": "Cancel",
+  "select": "Select",
+  "delete": "Delete",
+  "": ""
+}

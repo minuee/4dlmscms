@@ -1,0 +1,15 @@
+{
+  "removeProfileImg": "프로필 이미지를 삭제하시겠습니까?",
+  "changePassword": "비밀번호 변경",
+  "oldPassword": "이전 비밀번호",
+  "newPassword": "새 비밀번호",
+  "confirmPassword": "새 비밀번호 입력 확인",
+
+  "updateProfile": "프로필정보 업데이트",
+  "displayInformation": "내 정보",
+  "displayName": "이름",
+  "language": "사용언어",
+  "phoneNumber": "휴대폰번호(숫자만 입력)",
+  "changePhoto": "사진 변경",
+  "save": "저장하기"
+}

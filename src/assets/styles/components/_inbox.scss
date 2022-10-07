@@ -1,0 +1,50 @@
+@layer components {
+  .inbox {
+    .inbox__item {
+      @apply transition duration-200 ease-in-out transform cursor-pointer;
+      &:hover {
+        transform: scale(1.02, 1.02);
+        @apply relative z-20 shadow-md border-0 rounded;
+      }
+      &.inbox__item--active {
+        @apply bg-dark-3 text-gray-300;
+        .inbox__item--sender {
+          @apply font-medium;
+        }
+        .inbox__item--highlight {
+          @apply font-medium;
+        }
+        .inbox__item--time {
+          @apply font-medium;
+        }
+      }
+    }
+
+    // darker
+    .inbox__item--darker {
+      @apply transition duration-200 ease-in-out transform cursor-pointer bg-dark-5;
+      &:hover {
+        transform: scale(1.02, 1.02);
+        @apply relative z-20 shadow-md border-0 rounded;
+      }
+      &.inbox__item--darker--active {
+        @apply bg-dark-6 text-gray-300;
+        .inbox__item--sender {
+          @apply font-medium;
+        }
+        .inbox__item--darker--highlight {
+          @apply font-medium;
+        }
+        .inbox__item--darker--time {
+          @apply font-medium;
+        }
+      }
+    }
+    .form-check-input {
+      @apply border-gray-500;
+      &:checked {
+        @apply border-theme-1;
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@layer components {
+  .box {
+    box-shadow: 0px 3px 20px #0000000b;
+    @apply border-transparent rounded-md relative bg-dark-3;
+  }
+}

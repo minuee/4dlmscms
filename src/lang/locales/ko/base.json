@@ -1,0 +1,12 @@
+{
+  "hello": "안녕",
+  "unKnownError": "에러가 발생했습니다. 잠시 후 다시 시도해주세요.",
+  "UnsavedInfoWillGone": "저장하지 않은 데이터는 사라집니다.",
+  "pleaseCheckBeforeClose": "창을 닫기 전 반드시 저장해주세요.",
+
+  "saveBeforeClose": "창을 닫기 전 저장 해주세요.",
+
+  "doubleCheckNeeded": "저장하기 전 내용을 반드시 다시 확인해주세요!",
+
+  "useChrome": "Chrome 64bit을 사용해주세요."
+}

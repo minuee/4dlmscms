@@ -1,0 +1,17 @@
+@layer components {
+  .input {
+    @apply intro-x form-control py-3 px-4 block;
+  }
+
+  .auth-input {
+    max-width: 350px;
+    box-shadow: 0px 3px 5px #00000007;
+    @include media-breakpoint-down(xl) {
+      @apply min-w-full;
+    }
+  }
+
+  .select-input {
+    background-color: rgba(49, 58, 85, var(--tw-bg-opacity)) !important;
+  }
+}

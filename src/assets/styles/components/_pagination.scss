@@ -1,0 +1,55 @@
+// $btn-bkg: @apply bg-dark-5;
+
+.pagination-wrapper {
+  @apply pt-5 relative z-0 inline-flex self-center shadow-sm -space-x-px;
+}
+
+.pagination {
+  @apply border-dark-5 bg-dark-5 text-gray-400 relative inline-flex items-center px-2 py-1 md:px-4 md:py-2 border text-sm font-medium;
+  &:hover {
+    // background: darken($btn-bkg, 10%);
+    @apply bg-dark-6;
+  }
+}
+
+.pagination-current {
+  @apply border-dark-5 bg-dark-5 text-primary-1 relative inline-flex items-center px-2 py-1 md:px-4 md:py-2 border text-sm font-medium;
+  &:hover {
+    @apply bg-dark-6;
+  }
+}
+
+.pagination-prev {
+  @apply rounded-l-lg border-dark-5 bg-dark-5 text-gray-400 relative inline-flex items-center px-2 py-1 md:px-4 md:py-2 border text-sm font-medium;
+  &:hover {
+    @apply bg-dark-6;
+  }
+}
+.pagination-next {
+  @apply rounded-r-lg border-dark-5 bg-dark-5 text-gray-400 relative inline-flex items-center px-2 py-1 md:px-4 md:py-2 border text-sm font-medium;
+  &:hover {
+    @apply bg-dark-6;
+  }
+}
+
+// 앞뒤버튼만 있는 페이지네이션
+.pagination__only__prev {
+  @apply rounded-l-lg border-dark-1 bg-dark-5 text-gray-400 relative inline-flex items-center px-2 py-1 md:px-4 md:py-2 border text-sm font-medium;
+  &:hover {
+    @apply bg-dark-6;
+  }
+}
+.pagination__only__next {
+  @apply rounded-r-lg border-dark-1 bg-dark-5 text-gray-400 relative inline-flex items-center px-2 py-1 md:px-4 md:py-2 border text-sm font-medium;
+  &:hover {
+    @apply bg-dark-6;
+  }
+}
+
+.pagination-white {
+  @apply relative inline-flex items-center px-2 py-1 md:px-4 md:py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50;
+}
+
+.pagination-white .current {
+  @apply bg-indigo-50 hover:bg-indigo-100;
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="229" height="15" viewBox="0 0 229 15">
+    <defs>
+        <style>
+            .cls-4{fill:none;stroke:#606060;stroke-linecap:round;stroke-width:.5px}
+        </style>
+    </defs>
+    <g id="icon_time_slice_progress_bar" opacity="0.7" transform="translate(-0.092 -0.006)">
+        <rect id="Rectangle_105" width="229" height="15" fill="rgba(0,0,0,0.7)" rx="5" transform="translate(0.092 0.006)"/>
+        <g id="Group_3538" opacity="0.6" transform="translate(11.445 4.917)">
+            <path id="Path_64" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1519.279 -980.611)"/>
+            <path id="Path_75" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1442.967 -980.611)"/>
+            <path id="Path_81" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1364.748 -980.611)"/>
+            <path id="Path_65" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1507.832 -980.611)"/>
+            <path id="Path_74" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1429.613 -980.611)"/>
+            <path id="Path_80" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1353.301 -980.611)"/>
+            <path id="Path_66" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1494.477 -980.611)"/>
+            <path id="Path_73" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1416.258 -980.611)"/>
+            <path id="Path_79" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1339.947 -980.611)"/>
+            <path id="Path_67" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1481.123 -980.611)"/>
+            <path id="Path_72" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1404.811 -980.611)"/>
+            <path id="Path_78" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1326.592 -980.611)"/>
+            <path id="Path_68" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1467.768 -980.611)"/>
+            <path id="Path_70" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1391.457 -980.611)"/>
+            <path id="Path_76" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1313.238 -980.611)"/>
+            <path id="Path_69" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1456.322 -980.611)"/>
+            <path id="Path_71" d="M1519.279 980.611v5.429" class="cls-4" transform="translate(-1378.102 -980.611)"/>
+        </g>
+    </g>
+</svg>

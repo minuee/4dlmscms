@@ -1,0 +1,29 @@
+{
+  "removeProfileImg": "Remove this profile photo?",
+  "changePassword": "Change Password",
+  "oldPassword": "Old Password",
+  "newPassword": "New Password",
+  "confirmPassword": "Confirm Password",
+
+  "updateProfile": "Update Profile",
+  "displayInformation": "Display Information",
+  "displayName": "Display Name",
+  "language": "Language",
+  "phoneNumber": "Phone Number(only numbers)",
+  "changePhoto": "Change Photo",
+  "save": "save",
+
+  "role": "Role",
+  "selectRole": "Select Role",
+
+  "createUser": "Create New User",
+  "updateUser": "Update User Info",
+  "deleteUser": "Delete User Info",
+  "resetPassword": "Reset User Password",
+  "create": "Create",
+  "update": "Update",
+  "delete": "Delete",
+  "reset": "Reset",
+
+  "close": "Close"
+}

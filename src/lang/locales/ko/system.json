@@ -1,0 +1,27 @@
+{
+  "required": "이 항목은 필수입니다.",
+  "mustBeNumber": "이 항목은 숫자로 입력해주세요.",
+  "mustBePositiveNumber": "이 항목은 양수만 입력해주세요.",
+
+  "nameRequired": "이름은 필수항목입니다.",
+  "descriptionRequired": "설명은 필수항목입니다.",
+
+  "venueRequired": "베뉴는 필수항목입니다.",
+  "fpsRequired": "FPS는 필수항목입니다.",
+  "widthMustBeNumber": "너비는 숫자값이어야 합니다.",
+  "widthBePositiveNumber": "너비는 0이상이어야 합니다.",
+  "widthRequired": "너비는 필수항목입니다.",
+
+  "heightMustBeNumber": "높이는 숫자값이어야 합니다.",
+  "heightMustBePositiveNumber": "높이는 0이상이어야 합니다.",
+  "heightRequired": "높이는 필수항목입니다.",
+
+  "nodeTypeRequired": "노드타입은 필수항목입니다.",
+  "sessionMustBeNumber": "세션 정보는 숫자값이어야 합니다.",
+  "sessionMustBePositiveNumber": "세션 정보는 0이상이어야 합니다.",
+  "sessionRequired": "세션 정보는 필수항목입니다.",
+
+  "maxInstancesMustBeNumber": "최대 인스턴스 정보는 숫자값이어야 합니다.",
+  "maxInstancesMustBePositiveNumber": "최대 인스턴스 정보는 0이상이어야 합니다.",
+  "maxInstancesRequired": "최대 인스턴스 정보는 필수항목입니다."
+}

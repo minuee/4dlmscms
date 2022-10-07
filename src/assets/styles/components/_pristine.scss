@@ -1,0 +1,7 @@
+@layer components {
+  .has-error {
+    .form-control, .form-select {
+      @apply border-primary-3;
+    }
+  }
+}

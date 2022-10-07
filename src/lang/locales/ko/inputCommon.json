@@ -1,0 +1,5 @@
+{
+  "required": "이 항목은 필수입니다.",
+  "mustBeNumber": "이 항목은 숫자로 입력해주세요.",
+  "mustBePositiveNumber": "이 항목은 양수만 입력해주세요."
+}

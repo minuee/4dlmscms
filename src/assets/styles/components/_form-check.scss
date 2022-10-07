@@ -1,0 +1,90 @@
+@layer components {
+  .form-check {
+    @apply flex items-center;
+  }
+  .form-check-label {
+    @apply cursor-pointer select-none ml-2 text-gray-500;
+  }
+  .form-check-input {
+    &:focus {
+      @apply outline-none ring;
+    }
+    &[type='radio'] {
+      width: 16px;
+      height: 16px;
+      @apply appearance-none border shadow-sm p-0 relative rounded-full overflow-hidden cursor-pointer bg-dark-2 border-dark-4;
+      &:before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        transition: all 0.2s ease-in-out;
+        @apply bg-primary-1 absolute rounded-full inset-0 m-auto opacity-0;
+      }
+      &:checked {
+        @apply border-primary-1;
+        &:before {
+          @apply opacity-100;
+        }
+      }
+    }
+    &[type='checkbox'] {
+      width: 16px;
+      height: 16px;
+      border-radius: 0.2em;
+      @apply appearance-none border shadow-sm p-0 relative overflow-hidden cursor-pointer bg-dark-5 border-dark-5;
+      &.has-error {
+        @apply border-primary-3;
+      }
+      &:before {
+        content: '';
+        transition: all 0.2s ease-in-out;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' class='feather feather-check'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+        background-size: 80%;
+        @apply w-full h-full absolute text-white flex items-center justify-center opacity-0 bg-no-repeat bg-center;
+      }
+      &:checked {
+        @apply bg-primary-1 border-primary-1;
+        &:before {
+          @apply opacity-100;
+        }
+      }
+    }
+  }
+
+  // toggle switch
+  .form-check-switch {
+    width: 38px;
+    height: 24px;
+    padding: 1px;
+    @apply border shadow-sm ml-0 outline-none rounded-full relative cursor-pointer mt-0 appearance-none bg-dark-5 border-dark-5;
+    &:before {
+      content: '';
+      width: 22px;
+      height: 22px;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+      @apply absolute inset-y-0 my-auto rounded-full bg-dark-1;
+    }
+    &:checked {
+      @apply border-primary-1 bg-primary-5;
+      &::before {
+        margin-left: 13px;
+        @apply bg-white;
+      }
+    }
+  }
+
+  .form-toggle {
+    @apply appearance-none transition-colors cursor-pointer w-14 h-7 rounded-full focus:outline-none;
+    background-color: gray;
+
+    &:checked {
+      background-color: rgba(20, 46, 113, 1);
+    }
+
+    &:checked ~ span:last-child {
+      @apply translate-x-8;
+      background-color: gray;
+    }
+  }
+}

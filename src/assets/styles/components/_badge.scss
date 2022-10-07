@@ -1,0 +1,23 @@
+.badge {
+  @apply block px-2 mt-1.5 w-max;
+}
+
+// color
+.badge-success {
+  @apply bg-theme-29 text-theme-10;
+}
+.badge-superSuccess {
+  @apply bg-theme-31 text-theme-26;
+}
+
+.badge-warning {
+  @apply bg-theme-23 text-theme-22;
+}
+.badge-danger {
+  @apply bg-theme-30 text-theme-24;
+}
+
+// 경기가 live경기임을 알리는 뱃지
+.badge-live {
+  @apply bg-red-500 text-white rounded-md leading-normal px-2;
+}

@@ -1,0 +1,8 @@
+@layer components {
+  .form-label {
+    @apply inline-block mb-2;
+  }
+  .form-label--red {
+    @apply inline-block mb-2 text-red-500 font-bold text-lg;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "genre": "genre",
+  "category": "category",
+  "league": "league",
+  "season": "season",
+  "round": "round",
+
+  "selectGenre": "Select genre",
+  "selectCategory": "Select category",
+  "selectLeague": "Select league",
+  "selectSeason": "Select season",
+  "selectRound": "Select round",
+  "selectPlace": "Select place",
+
+  "categoryTypeRequired": "Category type is required.",
+  "categoryNameEnRequired": "Category name(en) is required.",
+  "categoryNameEnTooShort": "Category name(en) must contain at least 2 characters.",
+  "categoryNameKoRequired": "Category name(kr) is required.",
+  "categoryNameKrTooShort": "Category name(kr) must contain at least 2 characters.",
+  "categorySubnameEnRequired": "Category sub name(en) is required.",
+  "categorySubnameEnTooShort": "Category sub name(en) must contain at least 2 characters.",
+  "categorySubnameKrRequired": "Category sub name(kr) is required.",
+  "categorySubnameKrTooShort": "Category sub name(kr) must contain at least 2 characters.",
+  "categoryDescEnRequired": "Category description(en) is required.",
+  "categoryDescKoRequired": "Category description(kr) is required.",
+  "categoryDescEnTooShort": "Category description(en) must contain at least 2 characters.",
+  "categoryDescKoTooShort": "Category description(kr) must contain at least 2 characters.",
+  "genreIdRequired": "Genre ID is required.",
+  "categoryIdRequired": "Category ID is required.",
+  "leagueIdRequired": "League ID is required.",
+  "seasonIdRequired": "Season ID is required.",
+  "failedToGetCategoryData ": "Failed to fetch category data. Please try again."
+}

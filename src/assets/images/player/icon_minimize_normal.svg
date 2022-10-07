@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="58" height="58"
+	 viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFC3C3;fill-opacity:0;}
+	.st1{opacity:0.8;}
+	.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.8;}
+</style>
+<g id="icon_maximize_normal" transform="translate(3.5 3.416)">
+	<rect id="Rectangle_218" x="-3.5" y="-3.4" class="st0" width="58" height="58"/>
+	<g id="Group_363" transform="translate(15.528 15.61)" class="st1">
+		<g id="icon_full-2" transform="translate(0 0)">
+			<g id="Group_363-2">
+				<path id="Path_19" class="st2" d="M6.1,0h1.3v7.2H0l0-1.3h6.1L6.1,0z"/>
+			</g>
+		</g>
+		<g id="icon_full-2-2" transform="translate(12.91 0)">
+			<g id="Group_364" transform="translate(0)">
+				<path id="Path_20" class="st2" d="M1.3,0L0,0l0,7.2h7.4V5.9H1.3L1.3,0z"/>
+			</g>
+		</g>
+		<g id="icon_full-2-3" transform="translate(0 13.104)">
+			<g id="Group_365">
+				<path id="Path_21" class="st2" d="M6.1,7.2h1.3V0L0,0l0,1.3h6.1L6.1,7.2z"/>
+			</g>
+		</g>
+		<g id="icon_full-2-4" transform="translate(12.91 13.104)">
+			<g id="Group_366" transform="translate(0)">
+				<path id="Path_22" class="st2" d="M1.3,7.2H0L0,0l7.4,0v1.3H1.3L1.3,7.2z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

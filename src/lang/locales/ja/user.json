@@ -1,0 +1,15 @@
+{
+  "removeProfileImg": "このプロファイル フォトを削除しますか?",
+  "changePassword": "パスワードの変更",
+  "oldPassword": "古いパスワード",
+  "newPassword": "新しいパスワード",
+  "confirmPassword": "パスワードの確認",
+
+  "updateProfile": "プロファイルの更新",
+  "displayInformation": "私の情報",
+  "displayName": "名前",
+  "language": "言語",
+  "phoneNumber": "電話番号(数字のみ入力)",
+  "changePhoto": "写真の変更",
+  "save": "保存する"
+}

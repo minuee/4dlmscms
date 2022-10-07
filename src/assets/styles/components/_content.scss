@@ -1,0 +1,25 @@
+@layer components {
+  .content {
+    position: relative;
+    padding: 0px 22px;
+    border-radius: 1.3rem;
+    @apply min-w-0 flex-1 pb-10 shadow-sm bg-dark-1;
+    min-height: calc(100vh - 140px);
+    @include media-breakpoint-down(md) {
+      @apply px-4 max-w-full;
+    }
+    //   &:before {
+    //       content: "";
+    //       @apply w-full h-px block;
+    //   }
+
+    &__top-icon {
+      position: sticky;
+      right: 0;
+      bottom: 10%;
+      margin-left: auto;
+      z-index: 100;
+      cursor: pointer;
+    }
+  }
+}

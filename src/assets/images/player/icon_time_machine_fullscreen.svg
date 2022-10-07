@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 95 95">
+    <defs>
+        <linearGradient id="0zl4otjr7a" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#e6e6e6"/>
+        </linearGradient>
+        <linearGradient id="yrvgc8kaob" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f5f5f5"/>
+            <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g transform="translate(-0.336 -0.246) translate(1.91 1.91)">
+            <circle cx="45.5" cy="45.5" r="45.5" fill="url(#0zl4otjr7a)" transform="translate(0.426 0.336)"/>
+            <ellipse cx="44" cy="43.5" fill="url(#yrvgc8kaob)" rx="44" ry="43.5" transform="translate(1.426 2.336)"/>
+            <g transform="translate(21.023 21.01)">
+                <path fill="none" stroke="#000" stroke-linecap="round" stroke-width="3.2px" d="M3327.467 145.238a24.819 24.819 0 1 1 .995 10.419" transform="translate(-3327.467 -123.307)"/>
+                <rect width="4" height="18" rx="1" transform="translate(22.404 7.326)"/>
+                <rect width="3.82" height="17.183" rx="1" transform="translate(41.197 22.916) rotate(90)"/>
+                <g fill="#fff" stroke="#000" stroke-width="3px" transform="translate(19.038 19.052)">
+                    <circle cx="6" cy="6" r="6" stroke="none"/>
+                    <circle cx="6" cy="6" r="4.5" fill="none"/>
+                </g>
+            </g>
+            <path d="M3330.438 138.75a.425.425 0 0 1-.717 0l-4.529-7.243a.425.425 0 0 1 .359-.648h9.054a.424.424 0 0 1 .425.423.429.429 0 0 1-.066.224z" transform="translate(-3308.572 -91.607)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc3c3;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        opacity: 0.8;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: 0.8px;
+      }
+    </style>
+  </defs>
+  <g id="icon_maximize_normal" transform="translate(3.5 3.416)">
+    <rect id="Rectangle_218" data-name="Rectangle 218" class="cls-1" width="58" height="58" transform="translate(-3.5 -3.416)"/>
+    <g id="Group_363" data-name="Group 363" class="cls-2" transform="translate(15.528 15.61)">
+      <g id="icon_full-2" data-name="icon full-2" transform="translate(0 0)">
+        <g id="Group_363-2" data-name="Group 363">
+          <path id="Path_19" data-name="Path 19" class="cls-3" d="M-105.586,169.133h-1.259v-7.2h7.4v1.259h-6.138Z" transform="translate(106.844 -161.93)"/>
+        </g>
+      </g>
+      <g id="icon_full-2-2" data-name="icon full-2" transform="translate(12.91 0)">
+        <g id="Group_364" data-name="Group 364" transform="translate(0)">
+          <path id="Path_20" data-name="Path 20" class="cls-3" d="M-90.451,169.133h1.259v-7.2h-7.4v1.259h6.138Z" transform="translate(96.589 -161.93)"/>
+        </g>
+      </g>
+      <g id="icon_full-2-3" data-name="icon full-2" transform="translate(0 13.104)">
+        <g id="Group_365" data-name="Group 365">
+          <path id="Path_21" data-name="Path 21" class="cls-3" d="M-105.586,172.339h-1.259v7.2h7.4v-1.259h-6.138Z" transform="translate(106.844 -172.339)"/>
+        </g>
+      </g>
+      <g id="icon_full-2-4" data-name="icon full-2" transform="translate(12.91 13.104)">
+        <g id="Group_366" data-name="Group 366" transform="translate(0)">
+          <path id="Path_22" data-name="Path 22" class="cls-3" d="M-90.451,172.339h1.259v7.2h-7.4v-1.259h6.138Z" transform="translate(96.589 -172.339)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

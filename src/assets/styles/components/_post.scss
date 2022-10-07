@@ -1,0 +1,12 @@
+@layer components {
+  .post {
+    .post__tabs {
+      a {
+        @apply border-b-0 w-full sm:w-40 py-4 text-center flex justify-center items-center cursor-pointer;
+        &.active {
+          @apply border-transparent  bg-dark-3 text-gray-300;
+        }
+      }
+    }
+  }
+}

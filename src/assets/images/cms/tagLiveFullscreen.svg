@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="26" viewBox="0 0 50 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fc0000;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="tag_live_fullscreen" data-name="tag live fullscreen" transform="translate(-951.995 -516.772)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-1" width="50" height="26" rx="4" transform="translate(951.995 516.772)"/>
+    <g id="live" class="cls-2">
+      <g id="Group_4979" data-name="Group 4979" class="cls-2">
+        <path id="Path_3401" data-name="Path 3401" class="cls-3" d="M963.989,533.191h3.36v1.981h-5.925v-10.53h2.565Z"/>
+        <path id="Path_3402" data-name="Path 3402" class="cls-3" d="M972.194,524.642v10.53h-2.565v-10.53Z"/>
+        <path id="Path_3403" data-name="Path 3403" class="cls-3" d="M984.988,524.642l-3.734,10.53h-3.21l-3.735-10.53h2.73l2.609,7.95,2.625-7.95Z"/>
+        <path id="Path_3404" data-name="Path 3404" class="cls-3" d="M989.669,526.7v2.13H993.1v1.98h-3.435v2.31h3.885v2.055H987.1v-10.53h6.45V526.7Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

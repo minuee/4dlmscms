@@ -1,0 +1,12 @@
+{
+  "required": "이 항목은 필수입니다.",
+  "mustBeNumber": "이 항목은 숫자로 입력해주세요.",
+  "mustBePositiveNumber": "이 항목은 양수만 입력해주세요.",
+
+  "eventYymn4MustBeCharacters": "이벤트 년월(YYMM)은 4자여야 합니다.",
+  "nameRequired": "이름은 필수항목입니다.",
+  "countryRequired": "국가 정보는 필수항목입니다.",
+  "eventNameRequired": "이벤트명은 필수항목입니다.",
+  "eventYymmRequired": "이벤트 년월(YYMM)정보는 필수항목입니다.",
+  "descriptionRequired": "설명은 필수항목입니다."
+}

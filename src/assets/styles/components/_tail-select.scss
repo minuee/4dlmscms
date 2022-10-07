@@ -1,0 +1,49 @@
+@layer components {
+  // .dark {
+  .tail-select {
+    input[type='text'] {
+      @apply bg-dark-3 border-dark-4 text-white;
+    }
+    .select-label {
+      @apply bg-dark-2 border-dark-4 text-white;
+      &:after {
+        @apply border-gray-600;
+        border-right-color: transparent;
+        border-left-color: transparent;
+      }
+      &.tail-select-container .select-handle {
+        @apply bg-dark-1 text-white;
+        &:before {
+          @apply text-gray-500;
+        }
+        &:hover {
+          &:before {
+            @apply text-gray-400;
+          }
+        }
+      }
+    }
+    .select-dropdown {
+      @apply bg-dark-2 border-dark-4 text-white;
+      ul li {
+        @apply text-white;
+        &.optgroup-title {
+          @apply text-gray-500;
+        }
+        &:hover:not(.selected):not(.optgroup-title) {
+          @apply bg-dark-4 text-white;
+        }
+        &:first-of-type.selected {
+          @apply border-dark-4;
+        }
+        &:last-of-type.selected {
+          @apply border-dark-4;
+        }
+      }
+      .dropdown-search {
+        @apply border-dark-4;
+      }
+    }
+  }
+  // }
+}

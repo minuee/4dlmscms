@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="icon_checkmark_quality" transform="translate(-1100 -843)">
+    <rect id="Rectangle_4525" data-name="Rectangle 4525" class="cls-1" width="31" height="31" transform="translate(1100 843)"/>
+    <path id="Path_3292" data-name="Path 3292" class="cls-2" d="M-21150.633-21919.357l3.734,4.174,7.172-7.5" transform="translate(22261.133 22778.186)"/>
+  </g>
+</svg>
